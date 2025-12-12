@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetCare Vans</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f7f7f7; }
+    header { background:#2d6a4f; color:white; padding:20px; text-align:center; }
+    nav { background:#40916c; padding:10px; text-align:center; }
+    nav a { color:white; margin:0 15px; text-decoration:none; font-weight:bold; }
+    .hero { background:#95d5b2; padding:60px 20px; text-align:center; }
+    .hero h1 { font-size:40px; margin-bottom:10px; }
+    .hero p { font-size:20px; }
+    section { padding:40px 20px; max-width:900px; margin:auto; }
+    .card { background:white; padding:20px; margin:20px 0; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1); }
+    footer { background:#2d6a4f; color:white; text-align:center; padding:20px; margin-top:40px; }
+    .order-btn { display:inline-block; margin-top:15px; background:#1b4332; color:white; padding:12px 20px; border-radius:6px; text-decoration:none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>PetCare Vans</h1>
+  <p>Your Mobile Pet Support Service</p>
+</header>
+
+<nav>
+  <a href="#services">Services</a>
+  <a href="#experts">Experts</a>
+  <a href="#order">Order a Van</a>
+</nav>
+
+<div class="hero">
+  <h1>Everything Your Pet Needs, Delivered to Your Door</h1>
+  <p>Our vans come fully stocked with pet supplies and staffed with certified pet experts ready to assist.</p>
+</div>
+
+<section id="services">
+  <h2>Our Services</h2>
+
+  <div class="card">
+    <h3>Fully Equipped Pet Vans</h3>
+    <p>Our vans include food, grooming tools, cleaning supplies, toys, health items, and anything your pet may require.</p>
+  </div>
+
+  <div class="card">
+    <h3>On‑Site Pet Assistance</h3>
+    <p>Pet specialists travel with every van to give hands‑on help with nutrition, behavior, grooming, and general care.</p>
+  </div>
+
+  <div class="card">
+    <h3>Mobile Problem‑Solving</h3>
+    <p>From anxiety to allergies to training issues, our experts come to you ready to help.</p>
+  </div>
+</section>
+
+<section id="experts">
+  <h2>Meet Our Experts</h2>
+  <div class="card">
+    <p>Each van includes a certified pet expert trained in:</p>
+    <ul>
+      <li>Common pet health issues</li>
+      <li>Behavior and training</li>
+      <li>Nutrition and feeding plans</li>
+      <li>Grooming and hygiene</li>
+      <li>Emergency first‑aid for pets</li>
+    </ul>
+  </div>
+</section>
+
+<section id="order">
+  <h2>Order a PetCare Van</h2>
+  <div class="card">
+    <p>Ready to book your mobile pet support van? Click the button below to place an order.</p>
+    <a class="order-btn" href="#">Order Now</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 PetCare Vans — Mobile Pet Support</p>
+
+<section id="about">
+  <h2>About Us</h2>
+  <div class="card">
+    <p>PetCare Vans was founded to make pet care convenient, accessible, and stress-free. Our mission is to bring expert assistance and essential supplies right to your doorstep.</p>
+  </div>
+</section>
+
+<section id="pricing">
+  <h2>Pricing</h2>
+  <div class="card">
+    <ul>
+      <li>Basic Visit: $29 — Supplies delivery & general care</li>
+      <li>Expert Visit: $49 — Includes specialist assistance</li>
+      <li>Premium Visit: $79 — Full service + custom pet plan</li>
+    </ul>
+  </div>
+</section>
+
+<section id="faq">
+  <h2>Frequently Asked Questions</h2>
+  <div class="card">
+    <p><strong>What pets do you support?</strong><br>We assist with dogs, cats, birds, and small mammals.</p>
+    <p><strong>Do I need to prepare anything?</strong><br>No, our van arrives with everything necessary.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <div class="card">
+    <p>Email: support@petcarevans.com<br>Phone: +1 (555) 123‑4567</p>
+  </div>
+</section>
+
+</footer>
+
+</body>
+</html>
